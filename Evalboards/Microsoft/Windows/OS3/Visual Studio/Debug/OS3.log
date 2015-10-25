@@ -1,4 +1,4 @@
-﻿生成启动时间为 2015/10/25 18:59:23。
+﻿生成启动时间为 2015/10/25 22:21:15。
      1>项目“E:\embeded\ucOS_study_vs\Evalboards\Microsoft\Windows\OS3\Visual Studio\OS3.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\PC\BC45 /I..\ /I..\..\BSP /I..\..\BSP\CPU /I"..\..\..\..\..\uC-CPU" /I"..\..\..\..\..\uC-CPU\Win32\Visual Studio" /I"..\..\..\..\..\uC-LIB" /I"..\..\..\..\..\uCOS-III\Source" /I"..\..\..\..\..\uCOS-III\Ports\Win32\Visual Studio" /ZI /nologo /W0 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\app.cpp
@@ -39,4 +39,4 @@
 
 生成成功。
 
-已用时间 00:00:02.76
+已用时间 00:00:02.62

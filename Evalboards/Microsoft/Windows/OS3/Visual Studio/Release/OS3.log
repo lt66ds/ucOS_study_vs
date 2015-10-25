@@ -1,0 +1,68 @@
+﻿生成启动时间为 2015/10/25 22:15:56。
+     1>项目“E:\embeded\ucOS_study_vs\Evalboards\Microsoft\Windows\OS3\Visual Studio\OS3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\uC-CPU\cpu_core.c" "..\..\..\..\..\uC-CPU\Win32\Visual Studio\cpu_c.c" "..\..\..\..\..\uC-LIB\lib_ascii.c" "..\..\..\..\..\uC-LIB\lib_math.c" "..\..\..\..\..\uC-LIB\lib_mem.c" "..\..\..\..\..\uC-LIB\lib_str.c" "..\..\..\..\..\uCOS-III\Ports\Win32\Visual Studio\os_cpu_c.c" "..\..\..\..\..\uCOS-III\Source\os_cfg_app.c" "..\..\..\..\..\uCOS-III\Source\os_core.c" "..\..\..\..\..\uCOS-III\Source\os_dbg.c" "..\..\..\..\..\uCOS-III\Source\os_flag.c" "..\..\..\..\..\uCOS-III\Source\os_int.c" "..\..\..\..\..\uCOS-III\Source\os_mem.c" "..\..\..\..\..\uCOS-III\Source\os_msg.c" "..\..\..\..\..\uCOS-III\Source\os_mutex.c" "..\..\..\..\..\uCOS-III\Source\os_pend_multi.c" "..\..\..\..\..\uCOS-III\Source\os_prio.c" "..\..\..\..\..\uCOS-III\Source\os_q.c" "..\..\..\..\..\uCOS-III\Source\os_sem.c" "..\..\..\..\..\uCOS-III\Source\os_stat.c" "..\..\..\..\..\uCOS-III\Source\os_task.c" "..\..\..\..\..\uCOS-III\Source\os_tick.c" "..\..\..\..\..\uCOS-III\Source\os_time.c" "..\..\..\..\..\uCOS-III\Source\os_tmr.c" "..\..\..\..\..\uCOS-III\Source\os_var.c" ..\..\BSP\bsp.c ..\..\BSP\CPU\cpu_bsp.c ..\..\PC\BC45\PC.C ..\os_app_hooks.c
+         cpu_core.c
+     1>e:\embeded\ucos_study_vs\uc-cpu\cpu_core.h(105): fatal error C1083: 无法打开包括文件: “cpu.h”: No such file or directory
+         cpu_c.c
+     1>..\..\..\..\..\uC-CPU\Win32\Visual Studio\cpu_c.c(45): fatal error C1083: 无法打开包括文件: “cpu.h”: No such file or directory
+         lib_ascii.c
+     1>..\..\..\..\..\uC-LIB\lib_ascii.c(85): fatal error C1083: 无法打开包括文件: “lib_ascii.h”: No such file or directory
+         lib_math.c
+     1>..\..\..\..\..\uC-LIB\lib_math.c(72): fatal error C1083: 无法打开包括文件: “lib_math.h”: No such file or directory
+         lib_mem.c
+     1>e:\embeded\ucos_study_vs\uc-lib\lib_mem.h(110): fatal error C1083: 无法打开包括文件: “cpu.h”: No such file or directory
+         lib_str.c
+     1>..\..\..\..\..\uC-LIB\lib_str.c(73): fatal error C1083: 无法打开包括文件: “lib_str.h”: No such file or directory
+         os_cpu_c.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\ports\win32\visual studio\../../../Source/os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_cfg_app.c
+     1>..\..\..\..\..\uCOS-III\Source\os_cfg_app.c(38): fatal error C1083: 无法打开包括文件: “os_cfg_app.h”: No such file or directory
+         os_core.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_dbg.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_flag.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_int.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_mem.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_msg.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_mutex.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_pend_multi.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_prio.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_q.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_sem.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_stat.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         正在编译...
+         os_task.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_tick.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_time.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_tmr.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         os_var.c
+     1>e:\embeded\ucos_study_vs\ucos-iii\source\os.h(55): fatal error C1083: 无法打开包括文件: “os_cfg.h”: No such file or directory
+         bsp.c
+     1>..\..\BSP\bsp.c(15): fatal error C1083: 无法打开包括文件: “cpu.h”: No such file or directory
+         cpu_bsp.c
+     1>..\..\BSP\CPU\cpu_bsp.c(44): fatal error C1083: 无法打开包括文件: “cpu_core.h”: No such file or directory
+         PC.C
+     1>..\..\PC\BC45\PC.C(1): fatal error C1083: 无法打开包括文件: “PC.H”: No such file or directory
+         os_app_hooks.c
+     1>..\os_app_hooks.c(36): fatal error C1083: 无法打开包括文件: “os.h”: No such file or directory
+     1>已完成生成项目“E:\embeded\ucOS_study_vs\Evalboards\Microsoft\Windows\OS3\Visual Studio\OS3.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.71
