@@ -129,7 +129,7 @@
     <ClCompile Include="..\..\PC\BC45\PC.C">
       <Filter>PC</Filter>
     </ClCompile>
-    <ClCompile Include="..\app.cPP">
+    <ClCompile Include="..\app.cpp">
       <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
